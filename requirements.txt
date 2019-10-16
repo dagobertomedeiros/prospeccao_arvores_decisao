@@ -3,3 +3,16 @@ Para cruzar as linhas:
   -Pandas para ler e escrever os arquivos em excel, além de tornar mais prático e dinâmico o trabalho através dos dataframes;
   -Fuzzy facilita muito o tratamento de strings, para este escolhemos uma função que define a string pesquisada como valida 
       se ela tiver acima do percentual de caracteres corretos pre-definidos.
+      
+Para pegar a atividade principal das empresas dinâmicamente:
+  -Utilizamos uma api pública e gratuita, todavia, limitada a 3 consultas por minuto, com isso foi introduzido um delay no arquivo, com isso foi possível consultar todos os CNPJ sem custos adicionais.
+  
+Libs utilizadas em todo o projeto:
+  -Pandas
+  -RE
+  -Requests
+  -Time
+  -Fuzzywuzzy
+  -JSON
+  -Normalize
+  -BeautifulSoup

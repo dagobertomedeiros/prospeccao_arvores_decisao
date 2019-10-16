@@ -1,0 +1,5 @@
+Para cruzar as linhas:
+  -Importar pandas e fuzzywuzzy;
+  -Pandas para ler e escrever os arquivos em excel, além de tornar mais prático e dinâmico o trabalho através dos dataframes;
+  -Fuzzy facilita muito o tratamento de strings, para este escolhemos uma função que define a string pesquisada como valida 
+      se ela tiver acima do percentual de caracteres corretos pre-definidos.
